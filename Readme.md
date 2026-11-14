@@ -34,11 +34,11 @@
 ## Sections 📚
 ✔️ About\
 ✔️ Interests\
-✔️ Education\
-✔️ Online Certification\
 ✔️ Experience\
-✔️ Projects \
-✔️ Skills \
+✔️ Research & Publications\
+✔️ Projects\
+✔️ Skills (with logos)\
+✔️ Education\
 ✔️ Resume\
 ✔️ Contact Info
 

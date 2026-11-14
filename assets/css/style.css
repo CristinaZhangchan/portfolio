@@ -1096,3 +1096,167 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/*--------------------------------------------------------------
+# CV refresh: experience tags, publications, skill chips, education
+--------------------------------------------------------------*/
+.services .icon-box.text-left,
+.services .icon-box.text-left h4,
+.services .icon-box.text-left h5,
+.services .icon-box.text-left p,
+.services .icon-box.text-left ul {
+  text-align: left;
+}
+
+.services .icon-box ul li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.exp-tags {
+  margin-top: 12px;
+  font-family: "Courier New", monospace;
+  font-size: 13px !important;
+  color: #9fb3c8;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pub-list li:last-child {
+  border-bottom: none;
+}
+
+.pub-venue {
+  background: #1c7d32;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.pub-list strong {
+  flex: 1 1 320px;
+  color: #fff;
+}
+
+.pub-status {
+  color: #12d640;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.skill-heading {
+  font-size: 20px !important;
+  color: #fff;
+  margin-bottom: 20px !important;
+}
+
+.skill-heading i {
+  color: #12d640;
+  margin-right: 6px;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: #09203a;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-chip:hover {
+  transform: translateY(-3px);
+}
+
+.skill-chip img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.skill-chip i {
+  font-size: 24px;
+  line-height: 1;
+  color: #1c7d32;
+}
+
+.skill-chip.concept {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.skill-chip.concept i {
+  color: #12d640;
+}
+
+.edu-card {
+  padding: 0 0 5px 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+@media (max-width: 576px) {
+  .services .icon-box {
+    padding: 24px 16px;
+  }
+}
+
+#header.header-top h1 {
+  white-space: nowrap;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.edu-card img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background: #1751a6;
+}
+
+@media (min-width: 768px) {
+  .portfolio .portfolio-item h4 {
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.services .col-lg-12 > .icon-box {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.edu-card img.edu-logo-light {
+  background: #fff;
+  padding: 20px;
+}
